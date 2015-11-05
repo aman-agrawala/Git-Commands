@@ -1,0 +1,47 @@
+	Lesson 1:
+git log - tells you the changes that have been made for the repository
+git diff <file1> <file2> - tells you diff btwn file 1 and 2, assumes file 1 is  original
+git clone <git url> - providing a url will allow git to copy the repository to current folder
+git checkout <git ID> - using git log will allow you to see previous version git IDs. With git checkout you can access the files from these old versions.
+
+	Lesson 2:
+git init - create a repository
+
+git add <file> - adds file to a repository
+
+git status - tells you what files you have added to working space and which are untracked
+
+git commit - add the files from the working space into the repository
+
+git diff - with no arguement compares the working directory and the staging area.
+
+git diff --staged  -compares the most recent committ with the working directory
+
+git diff commit1 commit2 - compares the two commits
+
+git branch - with no arguements shows the current branches you have. The branch with a * next to it is the one that has been checked out
+
+git branch <name> - create a new branch called name
+
+git checkout <branch-name> - switch to another branch.
+
+git merge branch2 branch3 - git merge includes the currently checked-out branch in the 	merged version. Thus, if we run git merge branch2 branch3, while branch1 is checked out, we will have a merged version of branch1, branch2, and branch3. Also, since the two branches are merged, the order in which they are typed into the command line does not matter. The key is to remember that git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
+
+git merge --abort - Restore your files to their state before you started the merge by 
+
+git show <commit_id> - compares a commit to its parent 
+
+git branch -d <branch_name> - deletes the branch label called branch_name
+
+git log --graph --oneline - outputs a "graph" of the recent commits for the checked out branch
+
+git log -n x - this will show the git log of only the first x number of commits. 
+
+	Lesson 3:
+git remote - with no arguments shows the list of current remotes
+
+git remote add <name> - this sets up a name to use to refer to the repository on github for a specific local repository
+
+git remote -v - v stands for verboese and means it will tell you more information about the remotes. Here this shows which url the remotes are linked to.
+
+git push <remote you want to send changes to> <local branch you want to push> - pushes the branch you want to the remote you selected. 

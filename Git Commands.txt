@@ -47,3 +47,5 @@ git remote -v - v stands for verboese and means it will tell you more informatio
 git push <remote you want to send changes to> <local branch you want to push> - pushes the branch you want to the remote you selected. 
 
 git remote set-url <branch> <url> - change the url of the branch to a new url
+
+git pull <remote you want to pull> <branch you want to pull> - 

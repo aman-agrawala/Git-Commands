@@ -45,3 +45,5 @@ git remote add <name> - this sets up a name to use to refer to the repository on
 git remote -v - v stands for verboese and means it will tell you more information about the remotes. Here this shows which url the remotes are linked to.
 
 git push <remote you want to send changes to> <local branch you want to push> - pushes the branch you want to the remote you selected. 
+
+git remote set-url <branch> <url> - change the url of the branch to a new url

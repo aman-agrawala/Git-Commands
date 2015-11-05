@@ -4,8 +4,8 @@ git diff <file1> <file2> - tells you diff btwn file 1 and 2, assumes file 1 is  
 git clone <git url> - providing a url will allow git to copy the repository to current folder
 git checkout <git ID> - using git log will allow you to see previous version git IDs. With git checkout you can access the files from these old versions.
 
-	Lesson 2:
-git init - create a repository
+	Lesson 2
+:git init - create a repository
 
 git add <file> - adds file to a repository
 
@@ -49,3 +49,17 @@ git push <remote you want to send changes to> <local branch you want to push> - 
 git remote set-url <branch> <url> - change the url of the branch to a new url
 
 git pull <remote you want to pull> <branch you want to pull> - 
+
+
+
+
+
+
+
+
+
+
+Commands not from Udacity:
+git config --global user.email "your_email@example.com" - filling in your email will setup your commits to be linked to that email address. This will enable tracking for that email address.
+
+git config --global user.email - this will show you the email associated with your local Git.

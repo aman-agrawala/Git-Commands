@@ -1,7 +1,10 @@
 	Lesson 1:
 git log - tells you the changes that have been made for the repository
+
 git diff <file1> <file2> - tells you diff btwn file 1 and 2, assumes file 1 is  original
+
 git clone <git url> - providing a url will allow git to copy the repository to current folder
+
 git checkout <git ID> - using git log will allow you to see previous version git IDs. With git checkout you can access the files from these old versions.
 
 	Lesson 2
@@ -50,7 +53,7 @@ git remote set-url <branch> <url> - change the url of the branch to a new url
 
 git pull <remote you want to pull> <branch you want to pull> - 
 
-
+git fetch origin - pulls the latest version of GitHubs master branch and then creates a new branch where the origin/master name was. This origin/master name is created by GitHub when you pull from GitHub. It is used to show the last commit where a pull was utilized.
 
 
 
